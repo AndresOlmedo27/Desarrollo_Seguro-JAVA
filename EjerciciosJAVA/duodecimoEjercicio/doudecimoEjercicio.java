@@ -34,7 +34,7 @@ public class doudecimoEjercicio {
                     System.out.println("Introduce un formato válido.");
                 } else {
                     System.out.println("Tu frase es " + "\"" + cadena + "\".\n");
-                    String newCadena = cadena.replaceAll("[(\\.)(\\,)(\\;)]", " ");
+                    String newCadena = cadena.replaceAll("[(\\.)(\\,)(\\;)]", "");
                     String array[] = newCadena.split(" ");
                     HashMap<String, Integer> mapa = new HashMap<>();
                     for (String array2 : array) {
